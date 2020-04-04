@@ -7,8 +7,8 @@ TASK='text_classification'
 with_finetuning='' #'_finetune'  # or '' for not fine tuning
 dataset_size=38124
 
-export BERT_VOCAB=/kaggle/working/scibert_scivocab_uncased/vocab.txt
-export BERT_WEIGHTS=/kaggle/working/scibert_scivocab_uncased/weights.tar.gz
+export BERT_VOCAB=/content/scibert_scivocab_uncased/vocab.txt
+export BERT_WEIGHTS=/content/scibert_scivocab_uncased/weights.tar.gz
 
 export DATASET_SIZE=$dataset_size
 
